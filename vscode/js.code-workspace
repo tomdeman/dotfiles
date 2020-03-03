@@ -13,9 +13,6 @@
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [92],
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
     "eslint.alwaysShowStatus": true,
     "peacock.color": "#705757",
     "prettier.disableLanguages": [
@@ -47,9 +44,7 @@
       "coenraads.bracket-pair-colorizer-2",
       "dbaeumer.vscode-eslint",
       "eamodio.gitlens",
-      "eg2.vscode-npm-script",
       "esbenp.prettier-vscode",
-      "gamunu.vscode-yarn",
       "idbartosz.darkpp-italic",
       "johnpapa.vscode-peacock",
       "mikestead.dotenv",
