@@ -23,7 +23,6 @@
   "workbench.colorTheme": "Dark++ Italic",
   "workbench.enableExperiments": false,
   // extension
-  "sync.gist": "b9fc20b65ca0caa669b1776f6ea1097b",
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -77,5 +76,6 @@
       "name": "Vue Green",
       "value": "#42b883"
     }
-  ],
+  ]
+  //"sync.gist": "b9fc20b65ca0caa669b1776f6ea1097b",
 }

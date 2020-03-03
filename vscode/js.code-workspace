@@ -1,52 +1,62 @@
 {
-	"folders": [
-		{
-			"path": "/Users/developer/Development/local/github/dotfiles"
-		},
-		{
-			"path": "/Users/developer/Development/local/github/video-tool"
-		}
-	],
-	"settings": {
-		"editor.rulers": [
-			92
-		],
-		"emmet.includeLanguages": {
-			"javascript": "javascriptreact"
-		},
-		"eslint.alwaysShowStatus": true,
-		"peacock.color": "#215732",
-		"workbench.colorCustomizations": {
-			"activityBar.background": "#2f7c47",
-			"activityBar.activeBorder": "#422c74",
-			"activityBar.foreground": "#e7e7e7",
-			"activityBar.inactiveForeground": "#e7e7e799",
-			"activityBarBadge.background": "#422c74",
-			"activityBarBadge.foreground": "#e7e7e7",
-			"titleBar.activeBackground": "#215732",
-			"titleBar.inactiveBackground": "#21573299",
-			"titleBar.activeForeground": "#e7e7e7",
-			"titleBar.inactiveForeground": "#e7e7e799",
-			"statusBar.background": "#215732",
-			"statusBarItem.hoverBackground": "#2f7c47",
-			"statusBar.foreground": "#e7e7e7"
-		},
-	},
-	"extensions": {
-		"recommendations": [
-			"aaron-bond.better-comments",
-			"coenraads.bracket-pair-colorizer-2",
-			"dbaeumer.vscode-eslint",
-			"eamodio.gitlens",
-			"eg2.vscode-npm-script",
-			"gamunu.vscode-yarn",
-			"idbartosz.darkpp-italic",
-			"johnpapa.vscode-peacock",
-			"mikestead.dotenv",
-			"oderwat.indent-rainbow",
-			"pkief.material-icon-theme",
-			"shan.code-settings-sync",
-			"vincaslt.highlight-matching-tag",
-		]
-	}
+  "folders": [
+    {
+      "path": "/Users/developer/Development/local/github/dotfiles"
+    },
+    {
+      "path": "/Users/developer/Development/local/github/video-tool"
+    }
+  ],
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [92],
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "eslint.alwaysShowStatus": true,
+    "peacock.color": "#705757",
+    "prettier.disableLanguages": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "vue"
+    ],
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#8d6d6d",
+      "activityBar.activeBorder": "#58c758",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#58c758",
+      "activityBarBadge.foreground": "#15202b",
+      "titleBar.activeBackground": "#705757",
+      "titleBar.inactiveBackground": "#70575799",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "statusBar.background": "#705757",
+      "statusBarItem.hoverBackground": "#8d6d6d",
+      "statusBar.foreground": "#e7e7e7"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "coenraads.bracket-pair-colorizer-2",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "eg2.vscode-npm-script",
+      "esbenp.prettier-vscode",
+      "gamunu.vscode-yarn",
+      "idbartosz.darkpp-italic",
+      "johnpapa.vscode-peacock",
+      "mikestead.dotenv",
+      "oderwat.indent-rainbow",
+      "pkief.material-icon-theme",
+      "shan.code-settings-sync",
+      "vincaslt.highlight-matching-tag"
+    ]
+  }
 }
